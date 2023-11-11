@@ -1,0 +1,13 @@
+{
+  "name": "Copy Dropbox Comments",
+  "description": "Speed up replying to Dropbox comments",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "clipboardWrite"],
+  "content_scripts": [
+    {
+      "matches": ["https://*.dropbox.com/*"],
+      "js": ["index.js"]
+    }
+  ]
+}

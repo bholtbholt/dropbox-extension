@@ -1,0 +1,9 @@
+{
+  "name": "dropbox-extension",
+  "version": "1.0.0",
+  "description": "Google Chrome Extension to make working with Dropbox more reliable",
+  "main": "index.js",
+  "devDependencies": {
+    "prettier": "^3.0.3"
+  }
+}
